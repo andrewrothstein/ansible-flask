@@ -3,24 +3,27 @@ andrewrothstein.flask
 
 Uses the system pip to install flask
 
+Requirements
+------------
+
+See [meta/main.yml](meta/main.yml)
+
 Role Variables
 --------------
 
-flask_ver : version of flask to install
+See [defaults/main.yml](defaults/main.yml)
 
 Dependencies
 ------------
 
-Need python and pip
+See [meta/main.yml](meta/main.yml)
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
       roles:
-         - { role: andrewrothstein.flask, flask_ver: '0.11.1' }
+         - role: andrewrothstein.flask
 
 License
 -------
