@@ -1,7 +1,8 @@
 andrewrothstein.flask
 =====================
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-flask.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-flask)
 
-Uses the system pip to install flask
+Uses the system pip to install [Flask](https://www.pocoo.org/projects/flask/#flask).
 
 Requirements
 ------------
@@ -20,10 +21,11 @@ See [meta/main.yml](meta/main.yml)
 
 Example Playbook
 ----------------
-
-    - hosts: servers
-      roles:
-         - role: andrewrothstein.flask
+```yml
+- hosts: servers
+  roles:
+    - andrewrothstein.flask
+```
 
 License
 -------
