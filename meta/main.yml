@@ -16,6 +16,10 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+    - name: Debian
+      versions:
+        - stretch
+        - buster
   galaxy_tags:
     - web
     - rest
